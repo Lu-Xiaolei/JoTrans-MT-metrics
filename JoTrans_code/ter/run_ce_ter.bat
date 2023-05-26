@@ -1,0 +1,1 @@
+for %%i in (ter_ce/*.txt) do java -jar tercom.7.25.jar -r 3ref_ce.txt -h ter_ce/%%i > 68_ce_result/out-%%i
